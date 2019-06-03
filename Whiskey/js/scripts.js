@@ -4,10 +4,6 @@ $(document).ready(function() {
 
   var userFavWhiskey = function(sentence) {
     console.log(sentence);
-    alert(letterCase(sentence));
-    alert(reverseLetter(sentence));
-    alert(addLetter(sentence));
-    alert(numLetter(sentence));
   };
 
   var letterCase = function(sentence) {
@@ -33,5 +29,9 @@ $(document).ready(function() {
   };
 
   userFavWhiskey(sentence);
+  alert(letterCase(sentence));
+  alert(reverseLetter(sentence));
+  alert(addLetter(sentence));
+  alert(numLetter(sentence));
 
 });
